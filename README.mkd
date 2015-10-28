@@ -1,0 +1,21 @@
+Akka Vending Machine Example
+==============================
+
+This is a simple example project that demostrate how to use [Akka][0]'s FSM trait to implement
+a classic finite state machine -- a vending machine.
+
+Prerequists
+-------------
+
+  - Java 1.8 since the lastest Akka require Java 1.8 to run
+
+Run
+-------------
+
+  ```
+  $ git clone https://github.com/brianhsu/AkkaVendingMachine.git
+  $ cd AkkaVendingMachine
+  $ ./sbt run
+  ```
+
+[0]: http://akka.io/
